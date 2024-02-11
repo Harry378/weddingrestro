@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEIST RESTAURANT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="Facilities.html">FACILITIES</a></li>
+                        <li><a href="gallery.html" target="_blank">GALLERY</a>
+                        <li><a href="#">PRIVATE DINING</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Facilities</h1>
+    </section>
+
+
+    <!----------choose us----------->
+    <section class="choose">
+        <h1>FACILITY</h1>
+        <p>we are provide you service 24/7 </p>
+
+        <div class="row">
+            <div class="choose-col">
+                <h3> PARTY </h3>
+                <p> Hypothesis: What's the Difference? A hypothesis proposes a tentative explanation or prediction.
+                    Their hypothesis may be proven true or false by testing and experimentation. ... A theory, on the
+                    other hand, is a substantiated explanation for an occurrence.</p>
+            </div>
+            <div class="choose-col">
+                <h3> WEDDING </h3>
+                <p> Hypothesis: What's the Difference? A hypothesis proposes a tentative explanation or prediction.
+                    Their hypothesis may be proven true or false by testing and experimentation. ... A theory, on the
+                    other hand, is a substantiated explanation for an occurrence.</p>
+            </div>
+            <div class="choose-col">
+                <h3> CAFE </h3>
+                <p> Hypothesis: What's the Difference? A hypothesis proposes a tentative explanation or prediction.
+                    Their hypothesis may be proven true or false by testing and experimentation. ... A theory, on the
+                    other hand, is a substantiated explanation for an occurrence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------- Facilities ---------->
+
+    <section class="facility">
+
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/wedding.jpg">
+                <h3>Top Decoration</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/ac restaurant.jpg">
+                <h3>Fully Aircondition</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+            <div class="facility-col">
+                <img src="images/tasty-food.jpg">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus
+            est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Harry003</p>
+    </section>
+
+
+    <!----JavaScript for toggle menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
